@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.navigation.fragment.findNavController
 import uz.salimovdeveloper.chatapp.R
 import uz.salimovdeveloper.chatapp.databinding.FragmentAddUserBinding
 import java.io.File
@@ -26,6 +27,14 @@ class AddUserFragment : Fragment() {
 
         binding.imageAdd.setOnClickListener {
             getImageContent.launch("image/*")
+        }
+
+        binding.btnBack.setOnClickListener {
+            findNavController().popBackStack()
+        }
+
+        binding.btnNext.setOnClickListener {
+            findNavController().navigate(R.id.usersFragment)
         }
 
         return binding.root

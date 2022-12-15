@@ -30,7 +30,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
         android:paddingStart="10dp"
-        android:inputType="text"
+        android:inputType="phone"
         android:background="@drawable/corner_color"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

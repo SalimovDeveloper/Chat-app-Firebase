@@ -63,6 +63,7 @@
         />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_next"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="@string/next"
@@ -81,6 +82,7 @@
         />
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_back"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="@string/back"

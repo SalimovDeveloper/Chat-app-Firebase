@@ -95,7 +95,7 @@ class CodeFragment : Fragment() {
 
                     Toast.makeText(requireContext(), "Muvaffaqiyatli", Toast.LENGTH_SHORT).show()
 //                    binding.addPassword.text.clear()
-//                    findNavController().navigate(R.id.addUserFragment)
+                    findNavController().navigate(R.id.addUserFragment)
 
 //                    val user = task.result?.user
                 } else {
