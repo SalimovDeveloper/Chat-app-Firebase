@@ -16,6 +16,10 @@ class UsersFragment : Fragment() {
     ): View? {
         binding = FragmentUsersBinding.inflate(layoutInflater)
 
+        binding.btnMenu.setOnClickListener {
+            binding.draw.open()
+        }
+
         return binding.root
     }
 }

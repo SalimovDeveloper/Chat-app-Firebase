@@ -27,7 +27,7 @@ class SignUpFragment : Fragment() {
             if (number2!="" && number.length == 13){
 
                 MyNumber.number = binding.number.text.toString().trim()
-                findNavController().navigate(R.id.codeFragment)
+//                findNavController().navigate(R.id.codeFragment)
 
             }else{
                 Toast.makeText(

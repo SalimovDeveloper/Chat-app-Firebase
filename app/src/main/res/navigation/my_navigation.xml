@@ -3,28 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/my_navigation"
-    app:startDestination="@id/signUpFragment">
+    app:startDestination="@id/usersFragment">
     <fragment
-        android:id="@+id/signUpFragment"
-        android:name="uz.salimovdeveloper.chatapp.fragments.SignUpFragment"
-        android:label="fragment_sign_up"
-        tools:layout="@layout/fragment_sign_up" >
-        <action
-            android:id="@+id/action_signUpFragment_to_codeFragment"
-            app:destination="@id/codeFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/codeFragment"
-        android:name="uz.salimovdeveloper.chatapp.fragments.CodeFragment"
-        android:label="fragment_code"
-        tools:layout="@layout/fragment_code" >
-        <action
-            android:id="@+id/action_codeFragment_to_addUserFragment"
-            app:destination="@id/addUserFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/addUserFragment"
-        android:name="uz.salimovdeveloper.chatapp.fragments.AddUserFragment"
-        android:label="fragment_add_user"
-        tools:layout="@layout/fragment_add_user" />
+        android:id="@+id/usersFragment"
+        android:name="uz.salimovdeveloper.chatapp.fragments.UsersFragment"
+        android:label="fragment_users"
+        tools:layout="@layout/fragment_users" />
 </navigation>
